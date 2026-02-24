@@ -1,0 +1,72 @@
+# AI Arbitrage Trading System - Technical Specifications
+
+## Project Overview
+Automated cryptocurrency arbitrage trading system with AI integration, wallet connectivity, and compliance framework.
+
+---
+
+## Core Requirements
+
+### 1. AI Trading Engine
+- **Strategy**: Statistical arbitrage across exchange price discrepancies
+- **Execution**: Automated trade detection and execution
+- **Frequency**: Minimum 3 trades per day
+- **Target Profit**: $0.20 per trade minimum
+
+### 2. Market Analysis
+- Real-time price monitoring across multiple exchanges
+- Volatility assessment
+- Liquidity validation before trade execution
+- Slippage protection thresholds
+
+### 3. Risk Management
+- Maximum exposure limits per trade: $50 minimum account balance recommended
+- Stop-loss mechanisms
+- Daily loss limits
+- Position sizing algorithms
+
+---
+
+## Wallet Integration
+
+### Supported Wallets
+- SafePal
+- Base Wallet
+- Coinbase Wallet
+- MetaMask
+- Telegram Wallet
+
+### Functions
+- Send/receive from all integrated wallets
+- Cross-exchange liquidity access
+- Automated balance checking
+- Transaction fee optimization
+
+---
+
+## Compliance & Legal
+
+### Requirements
+- KYC/AML integration capability
+- Transaction reporting for tax purposes
+- Exchange API compliance
+- Regional regulatory adherence (Australia/Queensland focus)
+
+### Security
+- API key encryption
+- Two-factor authentication
+- Withdrawal whitelist controls
+- Audit logging
+
+---
+
+## Technical Architecture
+
+### Minimum Viable Product
+- Start balance: $10-15 USD
+- Profit target: 20 cents per free trade
+- Daily trade limit: 3 trades
+- Cloud-based execution (no local hardware required)
+
+### Integration Points
+-
